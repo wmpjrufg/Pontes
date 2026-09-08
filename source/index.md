@@ -15,3 +15,8 @@ Definições gerais; princípios para locação da estrutura; estudo da carga m�
 aulas/001-introducao
 aulas/002-carregamentos
 ```
+Links de apoio:
+
+- [Plano de ensino](https://drive.google.com/drive/folders/1MDRspFLQe9IVAzV0nq5tNjX5yteSpqY9?usp=sharing)
+- [Material de apoio]()
+- [Provas antigas]()

@@ -2,26 +2,21 @@
 
 Seja bem vindo a disciplina de Pontes. 
 
-Abaixo segue alguns links de apoio
-
-- [Plano de ensino](https://drive.google.com/drive/folders/1MDRspFLQe9IVAzV0nq5tNjX5yteSpqY9?usp=sharing)
-- [Material de apoio]()
-- [Provas antigas]()
-
 Segue abaixo a descrição do trabalho prático do semestre:
 
 ## **2. Trabalho prático**
 
-O trabalho prático do semestre consiste no dimensionamento de uma ponte de concreto armado com duas longarinas moldadas *in loco*. Será tomada como referência a ponte que consta na bibliografia [[1]](#ref-1).
+O trabalho prático do semestre consiste no dimensionamento de uma ponte de concreto armado com duas longarinas moldadas *in loco*. Será tomada como referência a ponte que consta na bibliografia [[1]](#ref-1), cujo corte longitudinal é apresentado na [Figura 1](#fig-1).
 
+(fig-1)=
 ```{figure} ../_static/aulas/ponte-referencia.png
 :alt: Corte longitudinal da ponte de referência
 :width: 100%
 
-Corte longitudinal da ponte de referência, com vão central de 25,00 m, balanços/vãos laterais de 4,50 m e 3,00 m, pilares de 12,00 m e sapatas de 3,00 m x 1,35 m.
+**Figura 1** – Corte longitudinal da ponte de referência, com vão central de 25,00 m, balanços/vãos laterais de 4,50 m e 3,00 m, pilares de 12,00 m e sapatas de 3,00 m x 1,35 m.
 ```
 
-### Parâmetros base do projeto
+### 2.1 Parâmetros base do projeto
 
 - Vão principal (central): $25{,}00\text{ m}$
 - Vãos laterais / balanços: $4{,}50\text{ m}$ e $3{,}00\text{ m}$
