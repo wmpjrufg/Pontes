@@ -31,7 +31,7 @@ O projeto de fôrma completo da ponte de referência (plantas, cortes e detalham
 
 - Lançamento da geometria da ponte em CAD: Corte longitudinal, Corte B, Corte C, Detalhe 1 e Detalhe 5.
 
-```{admonition} Detalhe 5 — Barreira New Jersey
+```{admonition} Detalhe 5: Barreira New Jersey
 :class: destaque-vermelho
 
 Para o Detalhe 5, a barreira tipo New Jersey deverá ser representada conforme os detalhes do *Manual de projeto de obras-de-arte especiais*, do DNER, Publicação IPR 698 [[3]](#ref-3), substituindo a configuração apresentada no desenho de referência.
@@ -45,16 +45,42 @@ Para o Detalhe 5, a barreira tipo New Jersey deverá ser representada conforme o
 - Peso da pavimentação em CBUQ: considerar peso específico de $\gamma_{\text{asf}} = 24\text{ kN/m}^3$ e espessura média inicial de $8\text{ cm}$, acrescido de uma carga permanente de $2\text{ kN/m}^2$ sobre a área pavimentada para previsão de recapeamento futuro.
 - Peso das barreiras de proteção tipo New Jersey (Detalhe 5) e guarda-corpos metálicos com peso linear de $0,10\text{ kN/m}$.
 
-```{admonition} Entrega 1 — Desenhos e carregamentos permanentes
+```{admonition} Entrega 1: Desenhos e carregamentos permanentes
 :class: destaque-verde
 
 A **Entrega 1** contempla os itens **2.1 e 2.2** do roteiro de projeto e a determinação dos esforços permanentes na longarina, descrita no item **2.4**.
 
-**Item 2.1 — Desenhos em AutoCAD:** desenvolver as seções transversais e os detalhes necessários para determinar o peso das peças de concreto da ponte de referência.
+**Item 2.1: Desenhos em AutoCAD:** desenvolver as seções transversais e os detalhes necessários para determinar o peso das peças de concreto da ponte de referência.
 
-**Item 2.2 — Carregamentos permanentes:** determinar as áreas e os volumes das peças desenhadas em AutoCAD e calcular os carregamentos permanentes que atuam sobre a ponte, incluindo os demais componentes previstos neste item.
+**Item 2.2: Carregamentos permanentes:** determinar as áreas e os volumes das peças desenhadas em AutoCAD e calcular os carregamentos permanentes que atuam sobre a ponte, incluindo os demais componentes previstos neste item.
 
 **Análise no Ftool:** representar o sistema estrutural da ponte, aplicar os carregamentos permanentes calculados e determinar os diagramas de momentos fletores e esforços cortantes na longarina.
+
+**Apresentação e arquivos obrigatórios:**
+
+- Entregar os desenhos em arquivo **DWG compatível com o AutoCAD 2020**, com layouts e **viewports configuradas para plotagem**, escalas definidas e enquadramento adequado.
+- Entregar também as **versões em PDF de todas as pranchas**, correspondentes aos layouts do DWG, com textos, cotas e detalhes legíveis no tamanho de impressão previsto.
+- Entregar a **memória de cálculo em PDF**, com áreas, volumes, pesos específicos, carregamentos e resultados da análise, e o **arquivo editável do modelo no Ftool**.
+- Identificar todas as pranchas e a memória de cálculo com **nome completo e matrícula de todos os integrantes**, identificação da entrega e do projeto.
+- Numerar as pranchas em sequência, indicando o número da prancha e o total, por exemplo, **01/03, 02/03 e 03/03**.
+- Incluir **notas de projeto quando necessárias**, esclarecendo unidades, materiais, hipóteses, convenções e informações necessárias à interpretação dos desenhos e cálculos.
+- Organizar e nomear os arquivos de modo que seja possível identificar o grupo, o conteúdo e a prancha correspondente. Conferir se todos os arquivos abrem e se as referências externas necessárias estão incluídas.
+
+**Critérios de avaliação da Entrega 1 (10,0 pontos):**
+
+| Critério | O que será avaliado | Pontuação máxima |
+|---|---|---:|
+| Organização das pranchas | Distribuição dos desenhos, alinhamento, uso do espaço e organização do carimbo. | 1,0 |
+| Numeração das pranchas | Sequência completa, indicação do total e correspondência entre DWG e PDF. | 0,5 |
+| Legibilidade e plotagem | Leitura de textos, cotas e detalhes; escalas, espessuras de linha e viewports; ausência de cortes e sobreposições no PDF. | 1,5 |
+| Identificação e notas de projeto | Nome completo e matrícula de todos os integrantes, identificação do projeto e notas necessárias à compreensão. | 1,0 |
+| Arquivos entregues | DWG compatível com AutoCAD 2020, PDFs de todas as pranchas, memória de cálculo em PDF e modelo editável do Ftool, completos e acessíveis. | 1,0 |
+| Desenhos e detalhes técnicos | Atendimento ao item 2.1, geometria, cotas e adequação do Detalhe 5 ao manual indicado. | 2,0 |
+| Carregamentos permanentes | Áreas, volumes, unidades, pesos específicos e determinação dos carregamentos previstos no item 2.2. | 1,5 |
+| Modelo e esforços no Ftool | Geometria, apoios, aplicação dos carregamentos e diagramas de momentos fletores e esforços cortantes na longarina. | 1,5 |
+| **Total** | | **10,0** |
+
+**Regra de pontuação:** cada critério recebe 100% dos pontos quando atendido integralmente, 50% quando atendido parcialmente e zero quando ausente, incorreto ou impossível de verificar. A falta de identificação completa de todos os integrantes zera o critério de identificação e notas. Arquivos ausentes ou que não abrem não pontuam no conteúdo que depender deles para ser verificado. A ausência de notas de projeto não gera desconto quando elas não forem necessárias. A nota final corresponde à soma dos critérios.
 ```
 
 ### 2.3 Levantamento de carregamentos variáveis
