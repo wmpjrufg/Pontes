@@ -1,9 +1,7 @@
-# Aula 01 — Introdução
+# Introdução
 
-Conteúdo da aula em Markdown (MyST). Equações em LaTeX funcionam normalmente:
+Seja bem vindo a disciplina de Pontes. 
 
-$$
-f_{ck,j} = \beta_{1(t,s)} \cdot f_{ck,28}
-$$
+Abaixo segue alguns links de apoio
 
-Também é possível usar matemática inline, como $f_{ck}$, dentro do texto.
+- [Plano de ensino](https://drive.google.com/drive/folders/1MDRspFLQe9IVAzV0nq5tNjX5yteSpqY9?usp=sharing)
