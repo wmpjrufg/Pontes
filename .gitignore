@@ -1,0 +1,12 @@
+# Not sure what a .gitignore is?
+# See: https://git-scm.com/docs/gitignore
+
+# Sphinx build output
+build/
+_build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
