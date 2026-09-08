@@ -17,6 +17,6 @@ aulas/000-provas-anteriores
 aulas/000-trabalho-pratico
 aulas/001-introducao
 aulas/002-metodos-construtivos
-aulas/003-carregamentos
-aulas/004-lancamento-estrutural
+aulas/003-lancamento-estrutural
+aulas/004-carregamentos
 ```

@@ -1,4 +1,4 @@
-# Aula 02 — Sistema estrutural, pré-dimensionamento e lançamento estrutural
+# **Aula 03: Sistema estrutural, pré-dimensionamento e lançamento estrutural**
 
 ```{admonition} Onde estamos?
 :class: destaque-azul

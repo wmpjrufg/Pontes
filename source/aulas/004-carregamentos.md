@@ -1,4 +1,4 @@
-# Superestrutura de Pontes de Concreto: Ações, Trem-Tipo e Exemplo Numérico
+# **Aula 04: Superestrutura de Pontes de Concreto — Ações, Trem-Tipo e Exemplo Numérico**
 
 ```{note}
 Esta aula reúne o material de carregamentos fornecido para a disciplina: ações permanentes, trem-tipo rodoviário, distribuição transversal e exemplo da Ponte sobre o Rio Pau Seco.
@@ -17,11 +17,11 @@ Este documento compõe o material didático completo para o projeto e análise d
 ## 1. Classificação Geral das Ações e Base Normativa
 
 As ações atuantes nas pontes são classificadas de acordo com sua permanência, variabilidade e natureza de aplicação. A estimativa e a combinação dessas ações seguem rigorosamente as prescrições das normas técnicas brasileiras:
- * ABNT NBR 6118: Projeto de estruturas de concreto - Procedimento.
- * ABNT NBR 7187: Projeto de pontes de concreto armado e de concreto protendido - Procedimento.
- * ABNT NBR 7188: Carga móvel rodoviária e de pedestres em pontes, viadutos, passarelas e outras estruturas.
- * ABNT NBR 6120: Cargas para o cálculo de estruturas de edificações.
- * Manual DNIT 698/1996: Manual de Projetos de Obras d'Arte Especiais.
+ * NBR 6118 [[1]](#ref-1): Projeto de estruturas de concreto - Procedimento.
+ * NBR 7187 [[2]](#ref-2): Projeto de pontes de concreto armado e de concreto protendido - Procedimento.
+ * NBR 7188 [[3]](#ref-3): Carga móvel rodoviária e de pedestres em pontes, viadutos, passarelas e outras estruturas.
+ * NBR 6120 [[4]](#ref-4): Cargas para o cálculo de estruturas de edificações.
+ * Manual DNIT 698/1996 [[5]](#ref-5): Manual de Projetos de Obras d'Arte Especiais.
 
 ### Classificação das Ações na Superestrutura
 
@@ -43,16 +43,16 @@ As ações atuantes nas pontes são classificadas de acordo com sua permanência
 ## 2. Parâmetros e Determinação das Ações Permanentes
 
 ### 2.1 Pesos Específicos Mínimos e Especificações Normativas
-Conforme a ABNT NBR 7187 e a ABNT NBR 6120, devem ser adotados os seguintes valores mínimos para os materiais constitutivos:
+Conforme a NBR 7187 [[2]](#ref-2) e a NBR 6120 [[4]](#ref-4), devem ser adotados os seguintes valores mínimos para os materiais constitutivos:
 | Elemento / Material | Valor Adotado | Norma de Referência |
 |---|---|---|
-| Concreto Simples | $24\text{ kN/m}^3$ | NBR 7187 (Item 7.1.1) |
-| Concreto Armado ou Protendido | $25\text{ kN/m}^3$ | NBR 7187 (Item 7.1.1) |
-| Pavimentação Asfáltica (CBUQ) | $24\text{ kN/m}^3$ | NBR 7187 (Item 7.1.2) |
-| Adicional de Recapeamento | $2\text{ kN/m}^2$ no tabuleiro | NBR 7187 (Item 7.1.2) |
-| Solo Úmido (Aterro / Ala) | $18\text{ kN/m}^3$ (\phi \le 30^\circ) | NBR 7187 (Item 7.1.4) |
-| Guarda-Corpo (Pedestres) | $0{,}8\text{ kN/m}$ (H) / $2{,}0\text{ kN/m}$ (V) | NBR 6120 / DNIT 698 |
-| Guarda-Corpo (Passeio Misto) | $1{,}5\text{ kN/m}$ (H) | NBR 6120 |
+| Concreto Simples | $24\text{ kN/m}^3$ | NBR 7187 [[2]](#ref-2) (Item 7.1.1) |
+| Concreto Armado ou Protendido | $25\text{ kN/m}^3$ | NBR 7187 [[2]](#ref-2) (Item 7.1.1) |
+| Pavimentação Asfáltica (CBUQ) | $24\text{ kN/m}^3$ | NBR 7187 [[2]](#ref-2) (Item 7.1.2) |
+| Adicional de Recapeamento | $2\text{ kN/m}^2$ no tabuleiro | NBR 7187 [[2]](#ref-2) (Item 7.1.2) |
+| Solo Úmido (Aterro / Ala) | $18\text{ kN/m}^3$ (\phi \le 30^\circ) | NBR 7187 [[2]](#ref-2) (Item 7.1.4) |
+| Guarda-Corpo (Pedestres) | $0{,}8\text{ kN/m}$ (H) / $2{,}0\text{ kN/m}$ (V) | NBR 6120 [[4]](#ref-4) / DNIT 698 [[5]](#ref-5) |
+| Guarda-Corpo (Passeio Misto) | $1{,}5\text{ kN/m}$ (H) | NBR 6120 [[4]](#ref-4) |
 Em projetos estruturais de pontes, a variação total das cargas permanentes entre a fase de pré-dimensionamento e o projeto executivo final não deve ser superior a *5%*.
 
 
@@ -79,8 +79,8 @@ Para pontes com duas longarinas principais, o cálculo das cargas distribuídas 
  * Tabuleiro: Laje central e laje em balanço lateral.
  * Mísulas: Variações graduais de espessura na transição entre laje e viga.
  * Elementos de Proteção:
-   * Barreira New Jersey: Concreto armado padronizado conforme o manual DNIT 698 (seção transversal com área típica de $0{,}23\text{ m}^2$).
-   * Guarda-Corpo Metálico: Considera-se uma base de concreto de $15\text{ cm} \times 10\text{ cm}$ somada ao peso próprio do perfil metálico e às sobrecargas da NBR 6120.
+   * Barreira New Jersey: Concreto armado padronizado conforme o manual DNIT 698 [[5]](#ref-5) (seção transversal com área típica de $0{,}23\text{ m}^2$).
+   * Guarda-Corpo Metálico: Considera-se uma base de concreto de $15\text{ cm} \times 10\text{ cm}$ somada ao peso próprio do perfil metálico e às sobrecargas da NBR 6120 [[4]](#ref-4).
  * Pavimentação: Camada de concreto betuminoso usinado a quente (CBUQ) com espessura média acrescida da reserva para recapeamento futuro.
 
 #### Componentes das Regiões de Apoio e Extremidades
@@ -92,7 +92,7 @@ Para pontes com duas longarinas principais, o cálculo das cargas distribuídas 
 
 ## 3. Ações Variáveis e Carga Móvel (Trem-Tipo Rodoviário)
 
-### 3.1 Veículos-Tipo Padrão (ABNT NBR 7188)
+### 3.1 Veículos-Tipo Padrão (NBR 7188 [[3]](#ref-3))
 A carga móvel simulada nas pontes rodoviárias combina um veículo pesado concentrado com uma carga distribuída de multidão.
 
 #### Veículo-Tipo TB-450 (Rodovias de Tráfego Geral)
@@ -335,3 +335,20 @@ Para o projeto da Longarina L1 no vão de $25{,}00\text{ m}$, as ações finais 
  * Trem-Tipo Longitudinal Majorado:
    * 3 Cargas Concentradas de Eixo: $P_{\text{long, final}} = 269{,}37\text{ kN}$ cada (espaçadas de $1{,}50\text{ m}$).
    * Carga Distribuída Contínua de Multidão: $q_{\text{long, final}} = 39{,}28\text{ kN/m}$.
+
+## Referências
+
+(ref-1)=
+**[1]** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6118**: *Projeto de estruturas de concreto — Procedimento*. Rio de Janeiro: ABNT.
+
+(ref-2)=
+**[2]** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 7187**: *Projeto de pontes de concreto armado e de concreto protendido — Procedimento*. Rio de Janeiro: ABNT, 2003.
+
+(ref-3)=
+**[3]** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 7188**: *Carga móvel rodoviária e de pedestres em pontes, viadutos, passarelas e outras estruturas*. Rio de Janeiro: ABNT, 2013.
+
+(ref-4)=
+**[4]** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 6120**: *Cargas para o cálculo de estruturas de edificações*. Rio de Janeiro: ABNT.
+
+(ref-5)=
+**[5]** DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES (DNIT). *Manual de Projetos de Obras d'Arte Especiais* (DNIT 698). Brasília, 1996.
