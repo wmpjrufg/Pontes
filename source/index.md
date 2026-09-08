@@ -1,6 +1,6 @@
-# Pontes
+# **Pontes**
 
-Repositório das aulas e materiais da disciplina de Pontes ministrada pelo professor Dr. [Wanderlei Malaquias Pereira Junior](http://lattes.cnpq.br/2268506213083114).
+Repositório das aulas e materiais da disciplina de Pontes ministrada pelo professor Dr. [Wanderlei Malaquias Pereira Junior](http://lattes.cnpq.br/2268506213083114) na Universidade Federal de Catalão (UFCAT).
 
 **Carga horária:** 64 horas
 
@@ -12,11 +12,10 @@ Definições gerais; princípios para locação da estrutura; estudo da carga m�
 :maxdepth: 2
 :caption: Aulas
 
+aulas/000-plano-ensino
+aulas/000-provas-anteriores
+aulas/000-trabalho-pratico
 aulas/001-introducao
-aulas/002-carregamentos
+aulas/002-metodos-construtivos
+aulas/003-carregamentos
 ```
-Links de apoio:
-
-- [Plano de ensino](https://drive.google.com/drive/folders/1MDRspFLQe9IVAzV0nq5tNjX5yteSpqY9?usp=sharing)
-- [Material de apoio]()
-- [Provas antigas]()
