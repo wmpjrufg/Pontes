@@ -39,16 +39,20 @@ Para o Detalhe 5, a barreira tipo New Jersey deverá ser representada conforme o
 
 ### 2.2 Levantamento de carregamentos permanentes
 
-**Ações permanentes ($g$):**
-
 - Peso próprio das longarinas, laje do tabuleiro, mísulas e transversinas ($\gamma_c = 25\text{ kN/m}^3$).
 - Peso da pavimentação em CBUQ: considerar peso específico de $\gamma_{\text{asf}} = 24\text{ kN/m}^3$ e espessura média inicial de $8\text{ cm}$, acrescido de uma carga permanente de $2\text{ kN/m}^2$ sobre a área pavimentada para previsão de recapeamento futuro.
 - Peso das barreiras de proteção tipo New Jersey (Detalhe 5) e guarda-corpos metálicos com peso linear de $0,10\text{ kN/m}$.
 
+### 2.3 Cálculo dos esforços permanentes
+
+- Determinação da carga permanente distribuída $g_{\text{long}}$ por metro linear em cada longarina.
+- Modelo estrutural contínuo/isostático considerando a geometria longitudinal (vão central de $25\text{ m}$ e balanços/extensões de $4{,}5\text{ m}$ e $3{,}0\text{ m}$).
+- Obtenção dos diagramas de momentos fletores ($M_g$) e esforços cortantes ($V_g$) ao longo do comprimento das vigas para a carga permanente.
+
 ```{admonition} Entrega 1: Desenhos e carregamentos permanentes
 :class: destaque-verde
 
-A **Entrega 1** contempla os itens **2.1 e 2.2** do roteiro de projeto e a determinação dos esforços permanentes na longarina, descrita no item **2.4**.
+A **Entrega 1** contempla os itens **2.1, 2.2 e 2.3** do roteiro de projeto.
 
 **Item 2.1: Desenhos em AutoCAD:** desenvolver as seções transversais e os detalhes necessários para determinar o peso das peças de concreto da ponte de referência.
 
@@ -83,7 +87,7 @@ A **Entrega 1** contempla os itens **2.1 e 2.2** do roteiro de projeto e a deter
 **Regra de pontuação:** cada critério recebe 100% dos pontos quando atendido integralmente, 50% quando atendido parcialmente e zero quando ausente, incorreto ou impossível de verificar. A falta de identificação completa de todos os integrantes zera o critério de identificação e notas. Arquivos ausentes ou que não abrem não pontuam no conteúdo que depender deles para ser verificado. A ausência de notas de projeto não gera desconto quando elas não forem necessárias. A nota final corresponde à soma dos critérios.
 ```
 
-### 2.3 Levantamento de carregamentos variáveis
+### 2.4 Levantamento de carregamentos variáveis
 
 **Ações variáveis ($q$):**
 
@@ -97,12 +101,6 @@ A **Entrega 1** contempla os itens **2.1 e 2.2** do roteiro de projeto e a deter
 - Coeficiente de Número de Faixas (CNF) — conforme ABNT NBR 7188:2024 [[2]](#ref-2).
 - Coeficiente de Impacto Adicional ($CIA = 1{,}25$ para estruturas de concreto).
 - Fator dinâmico combinado: $F_D = CIV \cdot CNF \cdot CIA$.
-
-### 2.4 Cálculo dos esforços permanentes
-
-- Determinação da carga permanente distribuída $g_{\text{long}}$ por metro linear em cada longarina.
-- Modelo estrutural contínuo/isostático considerando a geometria longitudinal (vão central de $25\text{ m}$ e balanços/extensões de $4{,}5\text{ m}$ e $3{,}0\text{ m}$).
-- Obtenção dos diagramas de momentos fletores ($M_g$) e esforços cortantes ($V_g$) ao longo do comprimento das vigas para a carga permanente.
 
 ### 2.5 Cálculo dos esforços do trem-tipo
 
