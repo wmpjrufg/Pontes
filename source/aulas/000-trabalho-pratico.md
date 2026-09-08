@@ -12,7 +12,7 @@ O trabalho prático do semestre consiste no dimensionamento de uma ponte de conc
 **Figura 1** – Corte longitudinal da ponte de referência, com vão central de 25,00 m, balanços de 4,50 m, pilares de 12,00 m e sapatas de 3,00 m x 1,35 m.
 ```
 
-O projeto de fôrma completo da ponte de referência (plantas, cortes e detalhamento) está disponível para download em {download}`ponte-referencia.pdf <../_static/arquivos/ponte-referencia.pdf>`.
+O projeto de fôrma completo da ponte de referência (plantas, cortes e detalhamento) está disponível para download em {download}`trabalho.pdf <../_static/arquivos/ponte-referencia.pdf>`.
 
 ### 1.1 Parâmetros base do projeto
 
@@ -54,11 +54,11 @@ Para o Detalhe 5, a barreira tipo New Jersey deverá ser representada conforme o
 
 A **Entrega 1** contempla os itens **2.1, 2.2 e 2.3** do roteiro de projeto.
 
-**Item 2.1: Desenhos em AutoCAD:** desenvolver as seções transversais e os detalhes necessários para determinar o peso das peças de concreto da ponte de referência.
+**Item 2.1 - Desenhos em AutoCAD:** desenvolver as seções transversais e os detalhes necessários para determinar o peso das peças de concreto da ponte de referência.
 
-**Item 2.2: Carregamentos permanentes:** determinar as áreas e os volumes das peças desenhadas em AutoCAD e calcular os carregamentos permanentes que atuam sobre a ponte, incluindo os demais componentes previstos neste item.
+**Item 2.2 - Carregamentos permanentes:** determinar as áreas e os volumes das peças desenhadas em AutoCAD e calcular os carregamentos permanentes que atuam sobre a ponte, incluindo os demais componentes previstos neste item.
 
-**Análise no Ftool:** representar o sistema estrutural da ponte, aplicar os carregamentos permanentes calculados e determinar os diagramas de momentos fletores e esforços cortantes na longarina.
+**Item 2.3 - Análise de esforços no Ftool:** representar o sistema estrutural da ponte, aplicar os carregamentos permanentes calculados e determinar os diagramas de momentos fletores e esforços cortantes na longarina.
 
 **Apresentação e arquivos obrigatórios:**
 
