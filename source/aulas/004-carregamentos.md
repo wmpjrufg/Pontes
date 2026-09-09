@@ -108,22 +108,15 @@ A carga móvel simulada nas pontes rodoviárias combina um veículo pesado conce
    * Área de contato de cada roda: $0{,}20\text{ m} \times 0{,}50\text{ m}$.
  * Carga de Multidão (q): $5{,}0\text{ kN/m}^2$ aplicada uniformemente em toda a área de pista utilizável ao redor do veículo.
 
-```text
-               <--- 1.5m ---> <--- 1.5m --->
-         +-------+          +-------+          +-------+
+Conforme o item 5.1.1 da NBR 7188 [[3]](#ref-3), a carga de multidão $q$ é aplicada em toda a área do tabuleiro não ocupada pelo veículo-tipo, inclusive nas faixas que o margeiam longitudinal e transversalmente. A Figura 3.1 apresenta a planta com o posicionamento das rodas e os cortes esquemáticos (Seção A-A e Seção B-B) com a distribuição da carga de multidão $p$ e das cargas de eixo $P$.
+
+```{figure} ../_static/aulas/carregamentos/esquema-tb-450.png
+:alt: Esquema de cargas do veículo-tipo TB-450
+:width: 90%
+:align: center
+
+**Figura 3.1** – Esquema de cargas do veículo-tipo TB-450: planta com o posicionamento das rodas e cortes esquemáticos (Seção A-A e Seção B-B) com a distribuição da carga de multidão $p$ e das cargas de eixo $P$. Fonte: NBR 7188 [[3]](#ref-3), item 5.1.1.
 ```
-
-   ^     |  [R]  |          |  [R]  |          |  [R]  |
-   |     +-------+          +-------+          +-------+
- 2.0m        |                  |                  |
-   |     +-------+          +-------+          +-------+
-   v     |  [R]  |          |  [R]  |          |  [R]  |
-
-```text
-         +-------+          +-------+          +-------+
-         <------------------- 6.0m -------------------->
-```
-
 
 
 #### Veículo-Tipo TB-240 (Estradas Vicinais)
@@ -145,19 +138,30 @@ Para simular o caráter dinâmico, imperfeições e a estocasticidade do tráfeg
 
 #### 1. Coeficiente de Impacto Vertical (CIV)
 
-Simula os efeitos dinâmicos causados pela passagem dos veículos. É determinado em função do vão teórico de referência L_{iv}:
- * Para vãos com L_{iv} \ge $10{,}00\text{ m}$:
+Simula os efeitos dinâmicos causados pela passagem dos veículos. Conforme o item 5.1.3.1 da NBR 7188 [[3]](#ref-3), o CIV é determinado em função do vão teórico de referência $L_{iv}$:
 
-*Equação ou desenvolvimento ausente no texto recebido; a completar.*
+$$
+CIV = 1{,}35 \text{, para estruturas com vão inferior a } 10{,}0\text{ m}
+$$
 
- * Para vãos com L_{iv} < $10{,}00\text{ m}$:
-   
+$$
+CIV = 1 + 1{,}06 \cdot \left(\frac{20}{L_{iv} + 50}\right) \text{, para estruturas com vão entre } 10{,}0\text{ m e } 200{,}0\text{ m}
+$$
+
 Para vigas isostáticas, $L_{iv}$ é o próprio vão teórico do trecho. Em estruturas com balanço, adota-se o vão da peça. Em vigas contínuas, $L_{iv}$ corresponde à média aritmética dos vãos da estrutura.
 
 
 #### 2. Coeficiente de Número de Faixas (CNF)
 
-Pondera a probabilidade concomitante de carregamento máximo em múltiplas faixas de rolamento, onde n representa o número de faixas rodoviárias carregadas (n \ge 1):
+Conforme o item 5.1.3.2 da NBR 7188 [[3]](#ref-3), o CNF pondera a probabilidade da carga móvel ocorrer concomitantemente em $n$ faixas carregadas de uma determinada hipótese de carga, sendo dado por:
+
+$$
+CNF = 1 - 0{,}05 \cdot (n - 2) \text{, com } 1{,}0 \ge CNF \ge 0{,}9
+$$
+
+Quando não for determinada a largura correspondente à hipótese de carga, deve-se considerar $CNF = 1{,}0$.
+
+Este coeficiente não se aplica ao dimensionamento de elementos estruturais transversais ao sentido do tráfego, como, por exemplo, lajes e transversinas.
 
 #### 3. Coeficiente de Impacto Adicional (CIA)
 
@@ -167,6 +171,15 @@ Majora os esforços em virtude de irregularidades ou descontinuidades no pavimen
 
 #### Expressões Finais Majoradas
 
+A carga concentrada $Q$ e a carga distribuída $q$, aplicadas no nível do pavimento, devem ser determinadas por:
+
+$$
+Q = P \cdot CIV \cdot CNF \cdot CIA
+$$
+
+$$
+q = p \cdot CIV \cdot CNF \cdot CIA
+$$
 
 
 ## 4. Distribuição Transversal e Trem-Tipo na Longarina
